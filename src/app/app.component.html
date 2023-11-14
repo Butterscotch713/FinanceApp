@@ -12,13 +12,18 @@
 <head>
   <title>658 Finance app base</title>
 </head>
-<body>
+<body style="background-color: #c6fac3">
 
   <h1 style="text-align: center; font-size: xxx-large"> Welcome!</h1>
-  <div style="text-align: center">
-    <button (click)="getName()">Sign Up!</button>
+  <div class="container" style="text-align: center; "> <router-outlet></router-outlet>
+    <button (click)="notImplemented()">Sign Up!</button>
     <p></p> <br>
-    <button (click)="getName()">Sign In!</button>
+  </div>
+  <div  class="navbar" style="text-align: center">
+  <a class="link" href="app/login/login.component.html" target="_blank">
+    <button> Sign in! </button> </a>
+
+
   </div>
 
 
