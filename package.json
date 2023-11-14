@@ -1,6 +1,7 @@
 {
   "name": "finance",
-  "version": "0.0.0",
+  "author": "Lizzy, for team Delaware North",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

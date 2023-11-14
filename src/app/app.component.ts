@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+declare function ClickEvent(): void;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Finance';
+   getName(){
+    alert("this is not implemented yet!")
+  }
+
+
 }
