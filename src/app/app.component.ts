@@ -14,8 +14,14 @@ export class AppComponent {
    notImplemented(){
     alert("this is not implemented yet!");
   }
+  closeMe() {
+    alert("We're sad to see you go");
+    window.close()
+
+  }
+
   goToLogin():void{
-    this.router.navigate(['/app/login.html'])
+    this.router.navigate(['login/login.component.html'])
   }
 
 
